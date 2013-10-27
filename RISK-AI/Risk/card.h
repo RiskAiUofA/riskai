@@ -1,6 +1,8 @@
 #ifndef CARD_H
 #define CARD_H
 
+#include "TerritoryNameEnum.h"
+
 typedef enum CardType{
     INFANTRY,
     CALVARY,
@@ -10,7 +12,7 @@ typedef enum CardType{
 class Card
 {
 public:
-    Card();
+    Card(CardType type, TerritoryName Territory);
 
     CardType getCardType(){return m_tCardType;}
 
