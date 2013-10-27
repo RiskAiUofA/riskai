@@ -5,7 +5,7 @@
 
 typedef enum CardType{
     INFANTRY,
-    CALVARY,
+    CAVALRY, // or Calvary if they have awesome Calves (extra intimidation!)
     ARTILLERY
 }CardType;
 
